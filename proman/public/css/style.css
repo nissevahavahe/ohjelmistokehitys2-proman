@@ -1,0 +1,160 @@
+
+body {
+  font-family: 'Xanh Mono', monospace;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url(pexels-chris-schippers-421927.jpg);
+}
+img{
+  width: 20%;
+}
+/* Navigation */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    background: greenyellow;
+    height: 5vh;
+    border: 0;
+    margin: 0;
+  }
+  
+  nav ul a:active {
+    color: red;
+  }
+  input::file-selector-button {
+    margin-top: 2px;
+    size: 1vh;
+    background-color: #555;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+  .buttons , .dropdown, .basic-text, .basic-upload{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 14px;
+    margin-top: 5px;
+    width: 35vh;
+    height: 3vh;
+    font-family: 'Xanh Mono', monospace;
+    font-size: medium;
+  }
+   .add-item ,.image-box, .livesearch, .results ,.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .delete {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 14px;
+    font-family: 'Xanh Mono', monospace;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .report {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    flex-direction: row;
+  }
+  .container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .comment-box {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 85%;
+    height: 30vh;
+  }
+  .comment-item {
+    padding: 5px;
+    background-color: beige;
+    border-radius: 5px;
+  }
+  .message_ok {
+    background-color: green;
+  }
+  
+  .message_error {
+    background-color: red;
+  }
+  .chart-container {
+    width: 50%;
+    background-color: black;
+    border-radius: 30px;
+    opacity: 80%;
+    margin: 40px;
+  }
+  
+  /* Form styles */
+  
+  label {
+    display: block;
+  }
+  
+  label abbr {
+    color: rgb(0, 0, 0);
+  }
+  
+  input:invalid {
+    border: 1.5px dashed rgb(255, 0, 0);
+  }
+  
+  input:valid {
+    border: 1px solid green;
+  }
+  
+  /* TABLE */
+  table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #00cccc;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+      0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  th,
+  td {
+    color: rgb(0, 0, 0);
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .total {
+    text-align: right;
+  }
+  
+  tr:hover {
+    background: #f4f4f4;
+  }
+  td:hover {
+    color: #555;
+  }
+  
+  thead th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .highlight {
+    background: yellow;
+  }
